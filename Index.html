@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Auto</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="overlay overlay--show"></div>
+        <header class="header">
+            <a class="burger burger--follow" href="#">
+                <span></span>
+            </a>
+            <div class="header__top header__top--open">
+                <div class="top__container container">
+                    <div class="header__top-inner">
+                        <a class="header__logo logo" href="#">
+                            <img src="images/Header/Logo.svg" alt="">
+                        </a>
+                        <nav class="header__nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">Home</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">About us</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">Services
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <img class="line" src="/images/Header/Line.svg" alt="line">
+                        <div class="header__user-nav">
+                            <div class="header__user-call">
+                                <a class="header__usercall" href="tel:+18002652452">
+                                    <img class="call" src="/images/Header/Assistance Icon.svg" alt="Call">
+                                </a>
+                            </div>
+                            <div class="header__user-call1">
+                                <div class="header__user-text">
+                                    <p>Road Assistance</p>
+                                </div>
+                                <a class="header__user-tel" href="tel:+18002652452">1800 265 24 52</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_body">
+                <div class="container">
+                    <div class="header__body-inner">
+                        <div class="header__main">
+                            <div class="header__content">
+                                <h1 class="header__title">
+                                    Get your vehicle service done online at one place
+                                </h1>
+                                <div class="header__content-icons">
+                                    <div class="header__content-buttons">
+                                        <div class="header__content-btn button">Book a service</div>
+                                    </div>
+                                    <a class="header__play" href="#">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g filter="url(#filter0_b_703_93)">
+                                                <path
+                                                    d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z"
+                                                    fill="#1E1B1B" />
+                                            </g>
+                                            <path
+                                                d="M8.99268 13.7144V10.18C8.99268 8.67335 8.99268 7.92001 9.48339 7.62962C9.97411 7.33922 10.6345 7.70177 11.9552 8.42688L14.9846 10.0901C16.3231 10.8249 16.9924 11.1924 17.0071 11.7668C17.0218 12.3412 16.3722 12.7424 15.0731 13.5448L12.0437 15.416C10.6936 16.2499 10.0185 16.6668 9.50559 16.3807C8.99268 16.0947 8.99268 15.3012 8.99268 13.7144Z"
+                                                fill="white" />
+                                            <defs>
+                                                <filter id="filter0_b_703_93" x="-80" y="-80" width="184" height="184"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                    <feGaussianBlur in="BackgroundImage" stdDeviation="40" />
+                                                    <feComposite in2="SourceAlpha" operator="in"
+                                                        result="effect1_backgroundBlur_703_93" />
+                                                    <feBlend mode="normal" in="SourceGraphic"
+                                                        in2="effect1_backgroundBlur_703_93" result="shape" />
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                        <p class="play">Play Video</p>
+                                    </a>
+                                </div>
+                                <div class="header__icons">
+                                    <a class="header__icon" href="#">
+                                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M26.4224 4.54586C23.5009 1.62414 19.6161 0.0151367 15.4844 0.0151367C11.3526 0.0151367 7.46789 1.62414 4.54635 4.54586C1.62462 7.4674 0.015625 11.3522 0.015625 15.4839C0.015625 19.6156 1.62462 23.5004 4.54635 26.4219C7.46789 29.3436 11.3526 30.9526 15.4844 30.9526C19.6161 30.9526 23.5009 29.3436 26.4224 26.4219C29.3441 23.5004 30.9531 19.6156 30.9531 15.4839C30.9531 11.3522 29.3441 7.4674 26.4224 4.54586ZM15.4844 28.5356C8.28778 28.5356 2.43262 22.6805 2.43262 15.4839C2.43262 8.28729 8.28778 2.43213 15.4844 2.43213C22.681 2.43213 28.5361 8.28729 28.5361 15.4839C28.5361 22.6805 22.681 28.5356 15.4844 28.5356ZM17.8009 16.1741L22.1979 20.5486L20.4932 22.2624L16.0435 17.835C15.8639 17.8778 15.677 17.9009 15.4844 17.9009C14.1496 17.9009 13.0674 16.8187 13.0674 15.4839C13.0674 14.6145 13.5266 13.8526 14.2155 13.4268V4.90955H15.424H16.6324V13.3566C17.3879 13.7654 17.9014 14.5645 17.9014 15.4839C17.9014 15.7237 17.8659 15.9552 17.8009 16.1741Z"
+                                                fill="#E2E6E9" />
+                                        </svg>
+                                    </a>
+                                    <div class="header_user-icon">
+                                        <div class="header__icon-text">
+                                            <p>We are open</p>
+                                        </div>
+                                        <p class="header__icon-text">Monday to Friday 9:00 AM to 10:00 AM</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button1">
+                                <div class="rateYo" id="rateYo"></div>
+                                <div class="numbers">
+                                    4.5/5
+                                </div>
+                                <div class="rating">
+                                    Rating
+                                </div>
+                        </div>
+                            <div class="button4">
+                                <img class="circle" src="/images/Main/Circle.png" alt="Circle">
+                                <span class="service">Quick service</span>
+                            </div>
+                            <img class="header_img" src="/images/Main/Image.jpg" alt="">
+                        <div class="header__row"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__offer offer">
+                <div class="container">
+                    <div class="offer__inner">
+                        <div class="offer__auto">
+                            <div class="offer__auto-content">
+                                <h1 class="text-1">What we Offer</h1>
+                                <h2 class="text-2">We offer full service auto repair & maintenance</h2>
+                            </div>
+                            <div class="offer__buttoms">
+                                <a class="buttons" href="#">
+                                    <img class="img" src="/images/offer/vehicle.svg" alt="Diagnostics">
+                                    <div class="offer__buttoms-content">
+                                        Diagnostics
+                                    </div>
+                                </a>
+                                <a class="buttons" href="#">
+                                    <img class="img" src="/images/offer/Engine Repair.svg" alt="Engine Repair">
+                                    <div class="offer__buttoms-content">
+                                        Engine Repair
+                                    </div>
+                                </a>
+                                <a class="buttons" href="#">
+                                    <img class="img" src="/images/offer/Wheel Repair.svg" alt="Wheel Repair">
+                                    <div class="offer__buttoms-content">
+                                        Wheel Repair
+                                    </div>
+                                </a>
+                                <a class="buttons" href="#">
+                                    <img class="img" src="/images/offer/Oil Filter.svg" alt="Oil Filter">
+                                    <div class="offer__buttoms-content">
+                                        Oil Filter
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="offer__buttoms">
+                                <a class="buttons" href="#">
+                                    <img class="img" src="/images/offer/Body work.svg" alt="Body Work">
+                                    <div class="offer__buttoms-content">
+                                        Body Work
+                                    </div>
+                                </a>
+                                <a class="buttons" href="#">
+                                    <img class="img" src="/images/offer/Batteries.svg" alt="Batteries">
+                                    <div class="offer__buttoms-content">
+                                        Batteries
+                                    </div>
+                                </a>
+                                <a class="buttons" href="#">
+                                    <img class="img" src="/images/offer/Insurance Claim.svg" alt="Insurance Claim">
+                                    <div class="offer__buttoms-content">
+                                        Insurance Claim
+                                    </div>
+                                </a>
+                                <a class="buttons" href="#">
+                                    <img class="img" src="/images/offer/Custom Service.svg" alt="Custom Service">
+                                    <div class="offer__buttoms-content">
+                                        Custom Service
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="offer__row">
+                            <p class="row">Learn about services</p>
+                            <img src="/images/offer/row.svg" alt="row">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__direction direction">
+                <div class="container">
+                    <div class="direction__inner">
+                        <div class="numerous">
+                            <div class="number"><img class="number1" src="/images/We follow/Get a Qiote.svg" alt="01">
+                            </div>
+                            <div class="line"><img class="line1" src="/images/We follow/Line.svg" alt="Line"></div>
+                            <div class="number"><img class="number2" src="/images/We follow/Book an Appointment.svg"
+                                    alt="02"></div>
+                            <div class="line"><img class="line2" src="/images/We follow/Line.svg" alt="Line"></div>
+                            <div class="number"><img class="number3" src="/images/We follow/Get your Service Done.svg"
+                                    alt="03"></div>
+                        </div>
+                        <div class="direction__text">
+                            <h1 class="direction-text1">We follow a clear process to help you out.</h1>
+                            <h2 class="direction-text2">Through True Rich Attended does no end it his mother since real
+                                had half every him case in packages enquire</h2>
+                            <div class="button btn1">Learn more</div>
+                        </div>
+                        <div class="direction__numerous">
+                            <h1 class="numerous-text1">Get a Quote</h1>
+                            <h2 class="numerous-text2">Through True Rich Attended does no end it his mother since real
+                                had half every.</h2>
+                            <h1 class="numerous-text1">Book an Appointment</h1>
+                            <h2 class="numerous-text2">Through True Rich Attended does no end it his mother since real
+                                had half every.</h2>
+                            <h1 class="numerous-text1">Get your Service Done</h1>
+                            <h2 class="numerous-text2">Through True Rich Attended does no end it his mother since real
+                                had half every.</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__CTA CTA">
+                <div class="container">
+                    <div class="CTA__inner">
+                        <div class="CTA__inner-content">
+                            <h1 class="CTA__text">Get in touch with us for your service related query</h1>
+                            <div class="button__CTA">Contact Us</div>
+                            <div class="CTA__inner-block">
+                                <div class="CTA__block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="main__Numbers Numbers">
+                <div class="container">
+                    <div class="numbers__inner">
+                        <div class="Numbers__numbers">
+                            <div class="Numbers__num">
+                                <p class="Numbers__number">20+</p>
+                                <p class="Numbers__text">Proffesional</p>
+                            </div>
+                            <div class="Numbers__num">
+                                <p class="Numbers__number">10+</p>
+                                <p class="Numbers__text">Years Eperience</p>
+                            </div>
+                            <div class="Numbers__num">
+                                <p class="Numbers__number">12K+</p>
+                                <p class="Numbers__text">Service Closed</p>
+                            </div>
+                            <div class="Numbers__num">
+                                <p class="Numbers__number">100%</p>
+                                <p class="Numbers__text">Customer Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__brands brands">
+                <div class="container">
+                    <div class="brands__inner">
+                        <div class="brands__text">
+                            <p class="brands__tt">Brands we Serve</p>
+                        </div>
+                        <img src="/images/Brands/Brands.svg" alt="Brands">
+                    </div>
+                </div>
+            </section>
+            <section class="main__blog blog">
+                <div class="container">
+                    <div class="blog__inner">
+                        <div class="blog__heading heading">
+                            <p class="heading__subtitle hs">Our blog</p>
+                            <div class="heading__title-block">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__body">
+                        <ul class="blog__filter-box">
+                            <li class="blog__filter-item">
+                                <button class="blog__filter-btn" type="button">Latest</button>
+                                <button class="blog__filter-btn" type="button">Popular</button>
+                                <button class="blog__filter-btn" type="button">Favorites</button>
+                            </li>
+                        </ul>
+                        <ul class="blog__list">
+                            <li class="blog__list-item">
+                                <a class="blog__list-link" href="#">
+                                    <div class="blog__image-box">
+                                        <img src="/images/Our Blog/1.png" alt="">
+                                    </div>
+                                    <div class="blog__link-content">
+                                        <p class="blog__link-text">Posted on October 6th 2021</p>
+                                        <h1 class="blog__link-title">5 Genius Car Accessories You Should Never Drive
+                                            Without</h1>
+                                        <p class="blog__link-subtitle">We provide a full range of front end mechanical
+                                            repairs for all makes and models We provide a full range of front end
+                                            mechanical repairs for all makes and models</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="blog__list-item">
+                                <a class="blog__list-link" href="#">
+                                    <div class="blog__image-box">
+                                        <img src="/images/Our Blog/2.png" alt="">
+                                    </div>
+                                    <div class="blog__link-content">
+                                        <p class="blog__link-text">Posted on October 6th 2021</p>
+                                        <h1 class="blog__link-title">5 Genius Car Accessories You Should Never Drive
+                                            Without</h1>
+                                        <p class="blog__link-subtitle">We provide a full range of front end mechanical
+                                            repairs for all makes and models We provide a full range of front end
+                                            mechanical repairs for all makes and models</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="blog__list-item">
+                                <a class="blog__list-link" href="#">
+                                    <div class="blog__image-box">
+                                        <img src="/images/Our Blog/3.png" alt="">
+                                    </div>
+                                    <div class="blog__link-content">
+                                        <p class="blog__link-text">Posted on October 6th 2021</p>
+                                        <h1 class="blog__link-title">We provide blow straight past it with the wheels
+                                            skidding</h1>
+                                        <p class="blog__link-subtitle">We provide a full range of front end mechanical
+                                            repairs for all makes and models We provide a full range of front end
+                                            mechanical repairs for all makes and models</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="blog__list-item">
+                                <a class="blog__list-link" href="#">
+                                    <div class="blog__image-box">
+                                        <img src="/images/Our Blog/4.png" alt="">
+                                    </div>
+                                    <div class="blog__link-content">
+                                        <p class="blog__link-text">Posted on October 6th 2021</p>
+                                        <h1 class="blog__link-title">We provide blow straight past it with the wheels
+                                            skidding</h1>
+                                        <p class="blog__link-subtitle">We provide a full range of front end mechanical
+                                            repairs for all makes and models We provide a full range of front end
+                                            mechanical repairs for all makes and models</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="blog__list-item">
+                                <a class="blog__list-link" href="#">
+                                    <div class="blog__image-box">
+                                        <img src="/images/Our Blog/5.png" alt="">
+                                    </div>
+                                    <div class="blog__link-content">
+                                        <p class="blog__link-text">Posted on October 6th 2021</p>
+                                        <h1 class="blog__link-title">5 Genius Car Accessories You Should Never Drive
+                                            Without</h1>
+                                        <p class="blog__link-subtitle">We provide a full range of front end mechanical
+                                            repairs for all makes and models We provide a full range of front end
+                                            mechanical repairs for all makes and models</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="blog__list-item">
+                                <a class="blog__list-link" href="#">
+                                    <div class="blog__image-box">
+                                        <img src="/images/Our Blog/6.png" alt="">
+                                    </div>
+                                    <div class="blog__link-content">
+                                        <p class="blog__link-text">Posted on October 6th 2021</p>
+                                        <h1 class="blog__link-title">5 Genius Car Accessories You Should Never Drive
+                                            Without</h1>
+                                        <p class="blog__link-subtitle">We provide a full range of front end mechanical
+                                            repairs for all makes and models We provide a full range of front end
+                                            mechanical repairs for all makes and models</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </section>
+            <section class="main__testimonials testimonials">
+                <div class="container">
+                    <div class="testimonials_inner">
+                        <div class="testimonials__heading heading heading--text-center">
+                            <p class="testimonials__heading__subtitle">Our customers say the nicest things about our
+                                service</p>
+                        </div>
+                        <div class="testimonials__slider-wrapper">
+                            <div class="testimonials__slider">
+                                <div class="testimonials__slide-one">
+                                    <div class="testimonials__slide">
+                                        <div class="testimonials__slide-inner">
+                                            <div class="testimonials__user">
+                                                <div class="testimonials__avatar">
+                                                    <img src="images/avatars/1.jpg" alt="">
+                                                </div>
+                                                <div class="testimonials__info">
+                                                    <div class="testimonials__name">
+                                                        Jonathan Vallem
+                                                    </div>
+                                                    <div class="testimonials__city">
+                                                        New york
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <blockquote class="testimonials__quote">I have got my car repaired at
+                                                Finsweet
+                                                many times before, they are good at what they do. Not only did they
+                                                repair
+                                                my car in a short comprehensive look on all the working</blockquote>
+                                        </div>
+                                    </div>
+                                    <div class="testimonials__slide">
+                                        <div class="testimonials__slide-inner">
+                                            <div class="testimonials__user">
+                                                <div class="testimonials__avatar">
+                                                    <img src="images/avatars/2.jpg" alt="">
+                                                </div>
+                                                <div class="testimonials__info">
+                                                    <div class="testimonials__name">
+                                                        Smith Johnson
+                                                    </div>
+                                                    <div class="testimonials__city">
+                                                        New york
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <blockquote class="testimonials__quote">I have got my car repaired at
+                                                Finsweet
+                                                many times before, they are good at what they do. Not only did they
+                                                repair
+                                                my car in a short comprehensive look on all the working</blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="testimonials__arow testimonials__prev" href="#">
+                                <svg width="23" height="16" viewBox="0 0 23 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.2852 9C21.8374 9 22.2852 8.55228 22.2852 8C22.2852 7.44772 21.8374 7 21.2852 7L21.2852 9ZM0.449017 7.29289C0.0584927 7.68342 0.0584926 8.31658 0.449017 8.7071L6.81298 15.0711C7.2035 15.4616 7.83667 15.4616 8.22719 15.0711C8.61772 14.6805 8.61772 14.0474 8.22719 13.6569L2.57034 8L8.22719 2.34314C8.61772 1.95262 8.61772 1.31946 8.22719 0.928931C7.83667 0.538407 7.2035 0.538407 6.81298 0.928931L0.449017 7.29289ZM21.2852 7L1.15612 7L1.15612 9L21.2852 9L21.2852 7Z"
+                                        fill="#1E1B1B" />
+                                </svg>
+                            </a>
+                            <a class="testimonials__arow testimonials__next" href="#">
+                                <svg width="23" height="16" viewBox="0 0 23 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.71484 9C1.16256 9 0.714844 8.55228 0.714844 8C0.714844 7.44772 1.16256 7 1.71484 7L1.71484 9ZM22.551 7.29289C22.9415 7.68342 22.9415 8.31658 22.551 8.7071L16.187 15.0711C15.7965 15.4616 15.1633 15.4616 14.7728 15.0711C14.3823 14.6805 14.3823 14.0474 14.7728 13.6569L20.4297 8L14.7728 2.34314C14.3823 1.95262 14.3823 1.31946 14.7728 0.928931C15.1633 0.538407 15.7965 0.538407 16.187 0.928931L22.551 7.29289ZM1.71484 7L21.8439 7L21.8439 9L1.71484 9L1.71484 7Z"
+                                        fill="#1E1B1B" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="testimonials__dots">
+                            <ul class="slick-dots" style role="teblist">
+                                <li class role="presentation">
+                                    <button type="button" role="tab" id="slick-slide.control11"
+                                        aria.controls="slick.slide11" aria-label="1 of 4" tabindex=".1">1</button>
+                                </li>
+                                <li role="presentation">
+                                    <button type="button" role="tab" id="slick-slide.control11"
+                                        aria.controls="slick.slide11" aria-label="2 of 4" tabindex=".1">2</button>
+                                </li>
+                                <li role="presentation" class="slick-active">
+                                    <button type="button" role="tab" id="slick-slide.control11"
+                                        aria.controls="slick.slide11" aria-label="3 of 4" tabindex=".1">3</button>
+                                </li>
+                                <li role="presentation">
+                                    <button type="button" role="tab" id="slick-slide.control11"
+                                        aria.controls="slick.slide11" aria-label="4 of 4" tabindex=".1">4</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__questions questions">
+                <div class="container">
+                    <div class="questions__inner">
+                        <div class="questions__content">
+                            <div class="questions__heading heading">
+                                <h1 class="questions__heading-title">Frequently Asked Questions</h1>
+                            </div>
+                            <ul class="questions_accordeon">
+                                <div class="questions__square">
+                                    <li class="questions__acc-item">
+                                        <a class="questions__acc-link" href="#">
+                                            <div class="questions__acc-head">
+                                                <span>How long should a car repair take?</span>
+                                            </div>
+                                            <p class="questions__acc-text" style="display: none;">I have got my car
+                                                repaired at Finsweet many times
+                                                before, they are good at what they do. Not only did they repair my car I
+                                                have
+                                                got my car repaired at Finsweet I have got my car repaired at Finsweet
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div class="questions__square">
+                                    <li class="questions__acc-item">
+                                        <a class="questions__acc-link" href="#">
+                                            <div class="questions__acc-head">
+                                                <span>How do I schedule my car's appointment ?</span>
+                                            </div>
+                                            <p class="questions__acc-text" style="display: none;">I have got my car
+                                                repaired at Finsweet many times
+                                                before, they are good at what they do. Not only did they repair my car I
+                                                have
+                                                got my car repaired at Finsweet I have got my car repaired at Finsweet
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div class="questions__square">
+                                    <li class="questions__acc-item">
+                                        <a class="questions__acc-link" href="#">
+                                            <div class="questions__acc-head">
+                                                <span>What are the repair services provided?</span>
+                                            </div>
+                                            <p class="questions__acc-text" style="display: none;">I have got my car
+                                                repaired at Finsweet many times
+                                                before, they are good at what they do. Not only did they repair my car I
+                                                have
+                                                got my car repaired at Finsweet I have got my car repaired at Finsweet
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div class="questions__square">
+                                    <li class="questions__acc-item">
+                                        <a class="questions__acc-link" href="#">
+                                            <div class="questions__acc-head">
+                                                <span>How do I find auto body shops near me?</span>
+                                            </div>
+                                            <p class="questions__acc-text" style="display: none;">I have got my car
+                                                repaired at Finsweet many times
+                                                before, they are good at what they do. Not only did they repair my car I
+                                                have
+                                                got my car repaired at Finsweet I have got my car repaired at Finsweet
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                                <div class="questions__square">
+                                    <li class="questions__acc-item">
+                                        <a class="questions__acc-link" href="#">
+                                            <div class="questions__acc-head">
+                                                <span>Genuine spare parts during car repair?</span>
+                                            </div>
+                                            <p class="questions__acc-text" style="display: none;">I have got my car
+                                                repaired at Finsweet many times
+                                                before, they are good at what they do. Not only did they repair my car I
+                                                have
+                                                got my car repaired at Finsweet I have got my car repaired at Finsweet
+                                            </p>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__info info">
+                <div class="container">
+                    <div class="info__inner">
+                        <div class="info__content">
+                            <div class="info__heading heading">
+                                <h1 class="info__heading-title">Get in touch with our experts</h1>
+                            </div>
+                            <div class="info__form">
+                                <form class="info__sendform">
+                                    <div class="info__form-row">
+                                        <label class="info__form-label">
+                                            <div class="info__block"><input type="text" class="info__form-input"
+                                                    placeholder="Your full Name" required></div>
+                                        </label>
+                                    </div>
+                                    <div class="info__form-row">
+                                        <label class="info__form-label">
+                                            <div class="info__block">
+                                                <input type="email" class="info__form-input" placeholder="Your Email"
+                                                    required>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="info__form-row">
+                                        <label class="info__form-label">
+                                            <div class="info__block">
+                                                <input type="text" class="info__form-input"
+                                                    placeholder="Select service type" required>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="info__form-row">
+                                        <label class="info__form-label">
+                                            <div class="info__block">
+                                                <input type="text" class="info__form-input" placeholder="Message"
+                                                    required>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </form>
+                                <a class="info__button button" href="#">Send message</a>
+                                <div class="info__contacts">
+                                    <div class="info__contacts-item info__Address">
+                                        <p class="info-contacts-subtitle">Address</p>
+                                        <h2 class="info-contacts-title">NH 234 Public Square San Francisco 65368</h2>
+                                    </div>
+                                    <div class="info__contacts-item info__ContactDetails">
+                                        <p class="info-contacts-subtitle">Contact Details</p>
+                                        <h2 class="info-contacts-title">1800 265 24 52
+                                            Finsweet@gmail.com</h2>
+                                    </div>
+                                    <div class="info__contacts-item info__Opening Hours">
+                                        <p class="info-contacts-subtitle">Opening Hours</p>
+                                        <h2 class="info-contacts-title">Monday to Friday 9:00 AM to 10:00 AM</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__map map">
+                <div class="container">
+                    <div class="info__map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231280.36611600636!2d55.08706252745207!3d25.076267368454218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2z0JTRg9Cx0LDQuSAtINCe0LHRitC10LTQuNC90LXQvdC90YvQtSDQkNGA0LDQsdGB0LrQuNC1INCt0LzQuNGA0LDRgtGL!5e0!3m2!1sru!2sru!4v1652278641005!5m2!1sru!2sru"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+            <div class="info__bg"></div>
+            <footer class="footer">
+                <div class="footer__top">
+                    <div class="container">
+                        <div class="footer__top-inner">
+                            <div class="footer__content">
+                                <div class="contacts">
+                                    <h1 class="footer__contact-title">
+                                        Get in touch with us for your service
+                                    </h1>
+                                    <div class="footer__brands"></div>
+                                    <a class="footer__brand-item" href="#"><img src="/images/Brands/Facebook.svg"
+                                            alt="Facebook"></a>
+                                    <a class="footer__brand-item" href="#"><img src="/images/Brands/Twitter.svg"
+                                            alt="Twitter"></a>
+                                    <a class="footer__brand-item" href="#"><img src="/images/Brands/Inst.svg"
+                                            alt="Inst"></a>
+                                    <a class="footer__brand-item" href="#"><img src="/images/Brands/LinkedIn.svg"
+                                            alt="LinkedIn"></a>
+                                </div>
+                                <div class="footer__info">
+                                    <ul>
+                                        <li class="footer__col">
+                                            <p class="footer__subtitle">Help line Noumber</p>
+                                            <h1 class="foter__title">1800 265 24 52</h1>
+                                        </li>
+                                        <li class="footer__col">
+                                            <p class="footer__subtitle">Address</p>
+                                            <h1 class="foter__title">NH 234 Public Square San Francisco 65368</h1>
+                                        </li>
+                                        <li class="footer__col">
+                                            <p class="footer__subtitle">We are open</p>
+                                            <h1 class="foter__title">Monday to Friday 9:00 AM to 10:00 AM</h1>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="container">
+                        <div class="footer__bottom-inner">
+                            <div class="footer__bottom-col">
+                                <a class="" href="#">
+                                    <img src="/images/Header/Logo2.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="footer__bottom-col">
+                                <a class="" href="#">
+                                    <p class="footer__bottom-menu">Home</p>
+                                </a>
+                                <a class="" href="#">
+                                    <p class="footer__bottom-menu">About us</p>
+                                </a>
+                                <a class="" href="#">
+                                    <p class="footer__bottom-menu">Services</p>
+                                </a>
+                                <a class="" href="#">
+                                    <p class="footer__bottom-menu">Blog</p>
+                                </a>
+                                <a class="" href="#">
+                                    <p class="footer__bottom-menu">Contact us</p>
+                                </a>
+                            </div>
+                            <div class="footer__bottom-col">
+                                <p class="Atsign">@ Copyright Finsweet 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
